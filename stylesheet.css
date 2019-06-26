@@ -47,11 +47,10 @@ a {
 
 .myicon{
   float: left;
-  width: 20%;
 }
 
 .myprofile{
-  padding-left: 20%;
+  margin-left: 20%;
   width: 80%;
 }
 
