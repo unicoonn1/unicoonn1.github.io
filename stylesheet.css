@@ -41,18 +41,15 @@ a {
   margin-bottom: 40px;
 }
 
-.profile-wrapper{
-  margin-top: 80px;
-}
-
 .profile{
   text-align: center;
 }
 
-.myicon{
-  float: left;
+.myicon img{
   width: 20%;
   height: auto;
+  padding-right: 15px;
+  float: left;
 }
 
 .myprofile{
@@ -66,7 +63,7 @@ a {
 }
 
 .scroll{
-  margin-bottom: 80px;
+  padding-top: 80px;
 }
 
 .coming{
