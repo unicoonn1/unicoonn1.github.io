@@ -41,18 +41,43 @@ a {
   margin-bottom: 40px;
 }
 
+.profile-wrapper{
+  margin-top: 80px;
+}
+
 .profile{
   text-align: center;
 }
 
 .myicon{
   float: left;
+  width: 20%;
+  height: auto;
 }
 
 .myprofile{
   margin-left: 20%;
   width: 80%;
+  border: solid 1px;
 }
+
+.works{
+  text-align: center;
+}
+
+.scroll{
+  margin-bottom: 80px;
+}
+
+.coming{
+  border: solid 1px;
+  padding: 150px 150px;
+}
+
+.contact{
+  text-align: center;
+}
+
 
 .btn {
   padding: 8px 24px;
