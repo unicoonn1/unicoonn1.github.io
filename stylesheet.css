@@ -264,14 +264,14 @@ footer {
 }
 
 @media all and (max-width: 670px) {
-  .header-right {
+/*  .header-right {
     display: none;
   }
 
   .menu-icon {
     display: block;
   }
-
+*/
   .top-wrapper .btn {
     width: 100%;
     height: auto;
