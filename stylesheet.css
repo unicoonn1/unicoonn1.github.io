@@ -44,6 +44,11 @@ a {
   margin-bottom: 40px;
 }
 
+.scroll{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 /*Profileのプログラム*/
 .profile-wrapper{
   max-width: 1000px;
@@ -67,15 +72,13 @@ a {
   border: solid 1px;
 }
 
+/*worksのプログラム*/
 .works-wrapper{
   max-width: 1000px;
   margin: auto;
-}
-
-/*worksのプログラム*/
-.works{
   text-align: center;
 }
+
 .deliverables{
   margin-left: 1%;
 }
@@ -96,34 +99,36 @@ a {
   font-weight: bold;
 }
 
-.scroll{
-  padding-top: 80px;
-}
-
-.coming{
+.sections{
   border: solid 1px;
-  text-align: center;
 }
 
-.qiita{
-  padding-top: 40px;
+.section{
+  padding-bottom: 40px;
 }
 
-.atcoder{
-  padding-top: 40px;
-}
 
 /*contactのプログラム*/
 .contact-wrapper{
-  max-width: 1000px;
   margin: auto;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
+  background-color: #87cefa;
 }
 
 .contact{
   text-align: center;
 }
 
+.contact h1{
+  color: white;
+}
+
+.contact h2{
+  display:inline-block;
+  padding:30px 60px;
+  background-color: darkgray;
+  color: white;
+}
 
 .btn {
   padding: 8px 24px;
@@ -252,6 +257,7 @@ header {
 }*/
 
 /*footer_logoのプログラム*/
+/*
 footer img {
   width: 125px;
 }
@@ -266,7 +272,7 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
   text-align: center;
-}
+}*/
 
 .menu-icon {
   color: white;
