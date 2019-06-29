@@ -17,6 +17,7 @@ a {
   margin: 0 auto;
 }
 
+/*サイトのはじめの紹介文*/
 .top-wrapper {
   padding: 270px 0 180px 0;
   background-image: url(top_picture.jpeg);
@@ -43,6 +44,7 @@ a {
   margin-bottom: 40px;
 }
 
+/*Profileのプログラム*/
 .profile-wrapper{
   max-width: 1000px;
   margin: auto;
@@ -70,8 +72,23 @@ a {
   margin: auto;
 }
 
+/*worksのプログラム*/
 .works{
   text-align: center;
+}
+.deliverables{
+  margin-left: 1%;
+}
+
+.deliverable {
+  border: solid 1px;
+  float: left;
+  width: 33%;
+}
+
+.deliverable img{
+  padding-top: 15px;
+  width: auto;
 }
 
 .scroll{
@@ -80,9 +97,18 @@ a {
 
 .coming{
   border: solid 1px;
-  padding: 150px 150px;
+  text-align: center;
 }
 
+.qiita{
+  padding-top: 40px;
+}
+
+.atcoder{
+  padding-top: 40px;
+}
+
+/*contactのプログラム*/
 .contact-wrapper{
   max-width: 1000px;
   margin: auto;
@@ -110,6 +136,7 @@ a {
   margin-right: 5px;
 }
 
+/*headerのプログラム*/
 header {
   height: 65px;
   width: 100%;
@@ -146,6 +173,9 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
+
+/*Progateレッスンのプログラム*/
+/*
 .lesson-wrapper {
   height: 580px;
   padding-bottom: 80px;
@@ -192,7 +222,9 @@ header {
 .heading h3 {
   font-weight: normal;
 }
+*/
 
+/*Progateのmessageのプログラム*/
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
@@ -212,6 +244,7 @@ header {
   box-shadow: none;
 }
 
+/*footer_logoのプログラム*/
 footer img {
   width: 125px;
 }
