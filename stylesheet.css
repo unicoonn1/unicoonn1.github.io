@@ -112,6 +112,7 @@ a {
 .contact-wrapper{
   max-width: 1000px;
   margin: auto;
+  padding-bottom: 80px;
 }
 
 .contact{
@@ -225,6 +226,7 @@ header {
 */
 
 /*Progateのmessageのプログラム*/
+/*
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
@@ -242,7 +244,7 @@ header {
   position: relative;
   top: 7px;
   box-shadow: none;
-}
+}*/
 
 /*footer_logoのプログラム*/
 footer img {
@@ -255,8 +257,10 @@ footer p {
 }
 
 footer {
+  border-top: 1px solid #eee;
   padding-top: 30px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .menu-icon {
@@ -279,10 +283,6 @@ footer {
 
   .lesson-wrapper {
     height: 990px;
-  }
-
-  footer {
-    text-align: center;
   }
 }
 
