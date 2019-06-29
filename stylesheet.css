@@ -87,8 +87,13 @@ a {
 }
 
 .deliverable img{
-  padding-top: 15px;
-  width: auto;
+  margin-top: 15px;
+  width: 70%;
+  border: solid 1px #eee;
+}
+
+.deliverable .title{
+  font-weight: bold;
 }
 
 .scroll{
