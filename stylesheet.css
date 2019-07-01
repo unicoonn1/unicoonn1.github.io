@@ -320,10 +320,12 @@ footer {
 */
   .logo{
     width: 62px;
+    margin-top:40px;
   }
 
   .header-right a{
     font-size: 6px;
+    padding: 0 10px;
   }
 
   .contact h2{
