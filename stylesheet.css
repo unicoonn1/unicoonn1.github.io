@@ -20,7 +20,7 @@ a {
 /*サイトのはじめの紹介文*/
 .top-wrapper {
   padding: 270px 0 180px 0;
-  background-image: url(top_picture.jpeg);
+  background-image: url(topImage.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -131,6 +131,7 @@ a {
   background-color: darkgray;
   color: white;
   width:50%;
+  font-size: 24px;
 }
 
 .btn {
@@ -319,6 +320,14 @@ footer {
     display: block;
   }
 */
+  .contact h2{
+    font-size: 15px;
+  }
+
+  .header-right a{
+    font-size: 6px;
+  }
+
   .top-wrapper .btn {
     width: 100%;
     height: auto;
