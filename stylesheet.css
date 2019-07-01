@@ -126,11 +126,9 @@ a {
 
 .contact h2{
   display:inline-block;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 120px;
   background-color: darkgray;
   color: white;
-  width:50%;
   font-size: 24px;
 }
 
@@ -320,12 +318,17 @@ footer {
     display: block;
   }
 */
-  .contact h2{
-    font-size: 15px;
+  .logo{
+    width: 62px;
   }
 
   .header-right a{
     font-size: 6px;
+  }
+
+  .contact h2{
+    padding: 15px 60px;
+    font-size: 8px;
   }
 
   .top-wrapper .btn {
