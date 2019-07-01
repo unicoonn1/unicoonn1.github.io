@@ -319,12 +319,16 @@ footer {
   }
 */
   .logo{
-    width: 62px;
-    margin-top:40px;
+    width: 93px;
+    margin-top:30px;
+  }
+
+  .header-right{
+    margin-right: -10px;
   }
 
   .header-right a{
-    font-size: 6px;
+    font-size: 8px;
     padding: 0 10px;
   }
 
