@@ -348,6 +348,16 @@ footer {
     font-size: 20px;
   }
 
+  .scroll{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .section{
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+
   .contact h2{
     padding: 15px 60px;
     font-size: 8px;
@@ -361,7 +371,7 @@ footer {
   .top-wrapper {
     padding: 70px 0 50px 0;
     width: 100%;
-    height:350px;
+    height:300px;
   }
 
   .top-wrapper h1 {
