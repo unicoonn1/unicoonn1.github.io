@@ -359,11 +359,17 @@ footer {
   }
 
   .top-wrapper {
-    height:300px;
+    padding: 70px 0 50px 0;
+    width: 100%;
+    height:200px;
   }
 
   .top-wrapper h1 {
     font-size: 24px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 20px;
   }
 
   .top-wrapper p {
@@ -376,6 +382,10 @@ footer {
 
   h2{
     font-size: 14px;
+  }
+
+  p{
+    font-size: 8px;
   }
 
   .message-wrapper .btn {
