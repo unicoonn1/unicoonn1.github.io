@@ -25,7 +25,7 @@ a {
   color: white;
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 700px;
 }
 
 .top-wrapper h1 {
@@ -34,8 +34,17 @@ a {
   letter-spacing: 5px;
 }
 
+h1{
+  font-size: 34px;
+}
+
+h2{
+  font-size: 24px;
+}
+
 .top-wrapper h2 {
   font-weight: normal;
+  font-size: 30px;
 }
 
 .top-wrapper p {
@@ -84,7 +93,8 @@ a {
 }
 
 .deliverable {
-  border: solid 1px;
+  background-color: ghostwhite;
+  border: solid 1px lightgray;
   float: left;
   width: 33%;
 }
@@ -181,6 +191,7 @@ header {
   float: left;
   transition: all 0.5s;
 }
+
 
 .header-right a:hover {
   background-color: rgba(255,255,255,0.3);
@@ -318,9 +329,10 @@ footer {
     display: block;
   }
 */
+
   .logo{
     width: 93px;
-    margin-top:30px;
+    margin-top:25px;
   }
 
   .header-right{
@@ -330,6 +342,10 @@ footer {
   .header-right a{
     font-size: 8px;
     padding: 0 10px;
+  }
+
+  .profile .works .contact{
+    font-size: 20px;
   }
 
   .contact h2{
@@ -343,7 +359,7 @@ footer {
   }
 
   .top-wrapper {
-    text-align: left;
+    height:300px;
   }
 
   .top-wrapper h1 {
@@ -354,12 +370,12 @@ footer {
     font-size: 14px;
   }
 
-  .lesson {
-    width: 100%;
+  h1{
+    font-size: 18px;
   }
 
-  .lesson-wrapper {
-    height: 1700px;
+  h2{
+    font-size: 14px;
   }
 
   .message-wrapper .btn {
