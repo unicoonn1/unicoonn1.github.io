@@ -30,12 +30,12 @@ a {
 
 .top-wrapper h1 {
   opacity: 1.0;
-  font-size: 45px;
+  font-size: 52px;
   letter-spacing: 5px;
 }
 
 h1{
-  font-size: 34px;
+  font-size: 45px;
 }
 
 h2{
@@ -108,9 +108,9 @@ h2{
 }
 
 .deliverable {
-/*  background-color: ghostwhite;*/
   float: left;
   width: 33%;
+  border: solid 1px lightgray;
 }
 
 .deliverable-icon{
@@ -131,10 +131,11 @@ h2{
 .text-contents{
   width: 90%;
   border-bottom: solid 1px lightgray;
+  margin-left: 5%;
 }
 
 .sections{
-  margin-top: -25px;
+  margin-top: -35px;
 }
 
 .section{
