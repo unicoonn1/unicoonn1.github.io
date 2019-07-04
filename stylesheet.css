@@ -78,13 +78,28 @@ h2{
 .myprofile{
   margin-left: 30%;
   width: 70%;
-  border: solid 1px;
+/*  border: solid 1px;*/
+}
+
+.techImage{
+  margin-top: -5px;
+  padding-left: 25px;
+  float: left;
+}
+
+.techImage img{
+  height: 100px;
+  width: 100px;
+  padding: 15px 15px;
 }
 
 /*worksのプログラム*/
 .works-wrapper{
   max-width: 1000px;
   margin: auto;
+}
+
+.works{
   text-align: center;
 }
 
@@ -93,15 +108,19 @@ h2{
 }
 
 .deliverable {
-  background-color: ghostwhite;
-  border: solid 1px lightgray;
+/*  background-color: ghostwhite;*/
   float: left;
   width: 33%;
+}
+
+.deliverable-icon{
+  text-align: center;
 }
 
 .deliverable img{
   margin-top: 15px;
   width: 70%;
+  height: 70%;
   border: solid 1px #eee;
 }
 
@@ -109,8 +128,13 @@ h2{
   font-weight: bold;
 }
 
+.text-contents{
+  width: 90%;
+  border-bottom: solid 1px lightgray;
+}
+
 .sections{
-  border: solid 1px;
+  margin-top: -25px;
 }
 
 .section{
@@ -118,6 +142,18 @@ h2{
   padding-bottom: 20px;
 }
 
+
+.qiita Img{
+  height: 100px;
+  weight:100px;
+  float: left;
+}
+
+.atcoder Img{
+  height: 100px;
+  weight:100px;
+  float: left;
+}
 
 /*contactのプログラム*/
 .contact-wrapper{
