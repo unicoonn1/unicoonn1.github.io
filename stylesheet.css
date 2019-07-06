@@ -238,6 +238,9 @@ header {
   transition: all 0.5s;
 }
 
+.header-right a:active {
+  background-color: rgba(255,255,255,0.3);
+}
 
 .header-right a:hover {
   background-color: rgba(255,255,255,0.3);
@@ -269,6 +272,14 @@ header {
 }
 
 @media all and (max-width: 670px) {
+  .header-right a:active {
+    background-color: rgba(255,255,255,0.3);
+  }
+
+  .header-right a:hover {
+    background-color: rgba(255,255,255,1.0);
+  }
+
   .container {
     padding: 0 8px;
   }
