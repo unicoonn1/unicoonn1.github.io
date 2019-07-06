@@ -273,6 +273,10 @@ header {
     padding: 0 8px;
   }
 
+  .myicon img{
+    padding-right: 8px;
+  }
+
   .header-left h2{
     margin-left: 0px;
   }
