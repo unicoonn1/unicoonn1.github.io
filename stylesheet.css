@@ -19,7 +19,7 @@ a {
 
 /*サイトのはじめの紹介文*/
 .top-wrapper {
-  padding: 270px 0 180px 0;
+  padding: 240px 0 180px 0;
   background-image: url(topImage.png);
   background-size: cover;
   color: white;
@@ -30,7 +30,7 @@ a {
 
 .top-wrapper h1 {
   opacity: 1.0;
-  font-size: 52px;
+  font-size: 54px;
   letter-spacing: 5px;
 }
 
@@ -39,7 +39,7 @@ h1{
 }
 
 h2{
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .top-wrapper h2 {
@@ -71,7 +71,7 @@ h2{
 .myicon img{
   width: 30%;
   height: auto;
-  padding-right: 15px;
+  padding-right: 20px;
   float: left;
 }
 
@@ -85,11 +85,14 @@ h2{
   margin-top: -5px;
   padding-left: 25px;
   float: left;
+  max-width: 600px;
 }
 
 .techImage img{
-  height: 100px;
-  width: 100px;
+  width: 15%;
+  height:15%;
+/*  height: 100px;
+  width: 100px;*/
   padding: 15px 15px;
 }
 
@@ -126,7 +129,10 @@ h2{
 
 .deliverable .title{
   font-weight: bold;
+  cursor: pointer;
+  color:mediumblue;
 }
+
 
 .text-contents{
   width: 90%;
@@ -144,15 +150,15 @@ h2{
 }
 
 
-.qiita Img{
-  height: 100px;
-  weight:100px;
+.qiita img{
+  width:8%;
+  height:8%;
   float: left;
 }
 
-.atcoder Img{
-  height: 100px;
-  weight:100px;
+.atcoder img{
+  width:8%;
+  height: 8%;
   float: left;
 }
 
@@ -206,10 +212,19 @@ header {
   z-index: 10;
 }
 
+.header-left h2{
+  width: 124px;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: white;
+  font-size: 26px;
+}
+
+/*
 .logo {
   width: 124px;
   margin-top: 20px;
-}
+}*/
 
 .header-left {
   float: left;
