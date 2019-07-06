@@ -5,7 +5,8 @@ $(function(){
     var id = $(this).attr('href');
     var position = $(id).offset().top;
     $('html,body').animate({
-      'scrollTop':position - headerHeight
+      'scrollTop':position - headerHeight,
+      'background-color':'rgba(255,255,255,1)'
     },'slow');
   });
 });
