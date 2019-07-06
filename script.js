@@ -8,4 +8,8 @@ $(function(){
     },'slow');
   });
 
+  $('.title').click(function(){
+    $(this).text('変更');
+  });
+
 });
