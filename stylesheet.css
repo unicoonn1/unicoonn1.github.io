@@ -269,7 +269,7 @@ header {
 
 @media all and (max-width: 670px) {
   .header-right a:hover {
-    background-color: rgba(34,49,52,0.9);
+    background-color: rgba(0,0,0,0);
   }
 
   .container {
