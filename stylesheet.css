@@ -256,14 +256,6 @@ header {
 }
 
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
 }
 
 @media all and (max-width: 750px) {
@@ -277,7 +269,13 @@ header {
 }
 
 @media all and (max-width: 670px) {
-  .header-left{
+/*  .logo{
+    width: 90px;
+    margin-top:25px;
+  }*/
+
+  .header-left h2{
+    width: 90px;
     margin-left: 0px;
   }
 
@@ -349,7 +347,7 @@ header {
   }
 
   .techImage img{
-    padding: 4px 4px;
+    padding: 2px 2px;
   }
 
   .message-wrapper .btn {
