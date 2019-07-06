@@ -1,5 +1,6 @@
 $(function(){
-  $('.header-right a').click(function(){
+  $('.header-right a').click(function(e){
+    e.preventDefault();
     var headerHeight = 65;
     var id = $(this).attr('href');
     var position = $(id).offset().top;
@@ -7,9 +8,4 @@ $(function(){
       'scrollTop':position - headerHeight
     },'slow');
   });
-
-  $('.title').click(function(){
-    $(this).text('変更');
-  });
-
 });
