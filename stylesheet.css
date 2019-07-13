@@ -71,8 +71,9 @@ h2{
 .myicon img{
   width: 30%;
   height: auto;
-  padding-right: 20px;
+  margin-right: 25px;
   float: left;
+  border-radius: 50%;
 }
 
 .myprofile{
@@ -124,7 +125,7 @@ h2{
   margin-top: 15px;
   width: 70%;
   height: 70%;
-  border: solid 1px #eee;
+  border: solid 1px lightgray;
 }
 
 .deliverable .title{
@@ -133,6 +134,13 @@ h2{
   padding: 8px 0px;
 }
 
+.deliverable p{
+  padding: 10px 10px;
+}
+
+.deliverable p span{
+  font-weight: bold;
+}
 
 .text-contents{
   width: 90%;
@@ -283,7 +291,7 @@ header {
   }
 
   .myicon img{
-    padding-right: 8px;
+    margin-right: 8px;
   }
 
   .header-left h2{
